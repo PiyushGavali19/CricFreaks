@@ -130,6 +130,7 @@ header{
 .sidebar h2 a{
     text-decoration: none;
     color: white;
+    margin-bottom: 3px;
 }
 .sidebar h2 a:hover{
     text-decoration: underline;
@@ -144,16 +145,22 @@ header{
 .sidebar p{
     margin-left: 10px;
     margin-right: 7px;
+    margin-top: 0px;
 }
 .sidebar big{
     margin-left: 10px ;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .sidebar ul{
-    margin-top: 5px;
+    margin-top: 3px;
+}
+.sidebar h4{
+    margin-left: 10px;
+    margin-top: 3px;
 }
 .sidebar h3{
     margin-left: 10px;
+    margin-top: 3px;
 }
 
 .sidebar .meme-a{
@@ -450,7 +457,7 @@ header{
     padding: .8rem;
     border: 1px solid white;
     background-color: aliceblue;
-    /* background-image: url('images/vk1.jpg'); */
+    /* background-image: url('vk1.jpg'); */
     height: 300px;
     width: 150px;
 }
